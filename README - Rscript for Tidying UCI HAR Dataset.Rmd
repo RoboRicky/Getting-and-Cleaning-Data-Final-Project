@@ -17,7 +17,7 @@ The Rscript for Tidying UCI HAR Dataset performs the following 5-step procedure 
 
 # Instructions for Use
 
-Download this zip archive: [UC Irvine Human Activity Recognition Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) (using the embedded link will ensure you get the correct version). Unzip it to your desired workspace, preferably the same folder containing the run_analysis.R script. Make sure that the unzipped folder in your workspace is called "UCI HAR dataset" and contains 2 folders("test" and "train") and four text files ("activity_labels", "features", "features_info", and "README").
+Download either the UCI HAR dataset folder from this repo or this zip archive: [UC Irvine Human Activity Recognition Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) (using the embedded link will ensure you get the correct version). Unzip the download, if necessary, to your desired workspace, ideally the same folder containing the run_analysis.R script. Make sure that the unzipped folder in your workspace is called "UCI HAR dataset" and contains 2 folders("test" and "train") and four text files ("activity_labels", "features", "features_info", and "README").
 
 Make sure you R workspace is set to the folder containing your UCI HAR Dataset folder (not inside the UCI HAR folder), then simply source the script and a file named "UCI_HAR_Average_Mean_and_Std_Values_for_Subject-Activity_Pairs.txt" should be produced, which is a space-delimited table of the average of mean and standard deviation measurement values for each subject-activity pair. If the script is also in the folder containing the UCI HAR Dataset folder, the source command is simply this:
 
